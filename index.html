@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(39, 59, 93);
+        }
+        button {
+
+            width: 13vw;
+            height: 90vh;
+            border-radius: 2em;
+            border-color: #eee;
+        }
+
+        #b1 {
+            background-color: rgb(34, 111, 255);
+        }
+
+        #b2 {
+            background-color: rgb(235, 249, 126);
+        }
+
+        #b3 {
+            background-color: #fb4f4f;
+        }
+
+        #b4 {
+            background-color: rgb(255, 162, 0);
+        }
+
+        #b5 {
+            background-color: rgb(0, 238, 255);
+        }
+
+        #b6 {
+            background-color: rgb(242, 99, 204);
+        }
+
+        #b7 {
+            background-color: rgb(184, 254, 188);
+        }
+
+
+        @media (max-width: 768px) {
+            button {
+
+                width: 90vw;
+                height: 13vh;
+                border-radius: 2em;
+                border-color: #eee;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <button id="b1" onclick="play_note(1)"></button>
+        <button id="b2" onclick="play_note(2)"></button>
+        <button id="b3" onclick="play_note(3)"></button>
+        <button id="b4" onclick="play_note(4)"></button>
+        <button id="b5" onclick="play_note(5)"></button>
+        <button id="b6" onclick="play_note(6)"></button>
+        <button id="b7" onclick="play_note(7)"></button>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
